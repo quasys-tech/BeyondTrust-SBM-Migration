@@ -11,7 +11,7 @@ kurulum bu paketlerden yapılır.
 | `openpyxl` | 3.1.5 | Excel okuma/yazma (Part 1 & 2) |
 | `requests` | 2.34.2 | BeyondTrust REST API (Part 2) |
 | `et_xmlfile` | 2.0.0 | openpyxl bağımlılığı |
-| `charset_normalizer` | 3.4.7 | requests bağımlılığı |
+| `charset_normalizer` | 3.4.7 | requests bağımlılığı (cp313) |
 | `idna` | 3.18 | requests bağımlılığı |
 | `urllib3` | 2.7.0 | requests bağımlılığı |
 | `certifi` | 2026.5.20 | requests bağımlılığı (TLS sertifikaları) |
@@ -21,10 +21,10 @@ kurulum bu paketlerden yapılır.
 Bu paketler şu ortam için indirilmiştir:
 
 - **İşletim sistemi:** Windows (64-bit / `win_amd64`)
-- **Python sürümü:** 3.14 (cp314)
+- **Python sürümü:** 3.13 (cp313)
 
 > Çoğu paket platformdan bağımsızdır (`py3-none-any`), ancak
-> `charset_normalizer-3.4.7-cp314-cp314-win_amd64.whl` Windows + Python 3.14'e
+> `charset_normalizer-3.4.7-cp313-cp313-win_amd64.whl` Windows + Python 3.13'e
 > özeldir. Hedef sunucuda **farklı bir işletim sistemi veya Python sürümü** varsa,
 > bu klasördeki paketleri internet erişimi olan bir makinede yeniden indirin
 > (en alttaki "Paketleri Yeniden İndirme" bölümüne bakın).
