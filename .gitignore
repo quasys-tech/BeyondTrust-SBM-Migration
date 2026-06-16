@@ -1,0 +1,21 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+
+# Secret'lar — ASLA commit edilmez
+config/secrets.py
+.env
+
+# Çalışma çıktıları / runtime
+logs/
+output/
+data/generated_objects.json
+
+# IDE / OS
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
